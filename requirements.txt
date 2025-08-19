@@ -1,0 +1,29 @@
+# Core ML and Deep Learning for LoRA Fine-tuning
+torch>=2.0.0
+transformers>=4.36.0
+datasets>=2.14.0
+peft>=0.7.0
+
+# MLflow for experiment tracking
+mlflow>=2.10.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Environment management
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Progress tracking
+tqdm>=4.64.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: For GPU acceleration
+accelerate>=0.20.0
+
+# Optional: For better model performance
+tokenizers>=0.13.0
